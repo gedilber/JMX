@@ -1,0 +1,2163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="urlExtraVitrine" elementType="Argument">
+            <stringProp name="Argument.name">urlExtraVitrine</stringProp>
+            <stringProp name="Argument.value">www.extra.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlCasasBahiaVitrine" elementType="Argument">
+            <stringProp name="Argument.name">urlCasasBahiaVitrine</stringProp>
+            <stringProp name="Argument.value">www.casasbahia.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlCarrinhoCasasBahia" elementType="Argument">
+            <stringProp name="Argument.name">urlCarrinhoCasasBahia</stringProp>
+            <stringProp name="Argument.value">carrinho.casasbahia.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlPontoFrioVitrine" elementType="Argument">
+            <stringProp name="Argument.name">urlPontoFrioVitrine</stringProp>
+            <stringProp name="Argument.value">www.pontofrio.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="url-fuji" elementType="Argument">
+            <stringProp name="Argument.name">url-fuji</stringProp>
+            <stringProp name="Argument.value">www.lojafuji.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlVitrineHP" elementType="Argument">
+            <stringProp name="Argument.name">urlVitrineHP</stringProp>
+            <stringProp name="Argument.value">www.lojahp.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlBarateiroVitrine" elementType="Argument">
+            <stringProp name="Argument.name">urlBarateiroVitrine</stringProp>
+            <stringProp name="Argument.value">www.barateiro.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlRecomendacaoEx" elementType="Argument">
+            <stringProp name="Argument.name">urlRecomendacaoEx</stringProp>
+            <stringProp name="Argument.value">rec.extra.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlRecomendacaoCB" elementType="Argument">
+            <stringProp name="Argument.name">urlRecomendacaoCB</stringProp>
+            <stringProp name="Argument.value">rec.casasbahia.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlRecomendacaoPF" elementType="Argument">
+            <stringProp name="Argument.name">urlRecomendacaoPF</stringProp>
+            <stringProp name="Argument.value">rec.pontofrio.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlB2BCB" elementType="Argument">
+            <stringProp name="Argument.name">urlB2BCB</stringProp>
+            <stringProp name="Argument.value">b2b.casasbahia.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlB2BEX" elementType="Argument">
+            <stringProp name="Argument.name">urlB2BEX</stringProp>
+            <stringProp name="Argument.value">b2b.extra.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlCarrinhoPontoFrio" elementType="Argument">
+            <stringProp name="Argument.name">urlCarrinhoPontoFrio</stringProp>
+            <stringProp name="Argument.value">carrinho.pontofrio.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlCarrinhoVVAtacado" elementType="Argument">
+            <stringProp name="Argument.name">urlCarrinhoVVAtacado</stringProp>
+            <stringProp name="Argument.value">carrinho.vvatacado.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlCarrinhoBarateiro" elementType="Argument">
+            <stringProp name="Argument.name">urlCarrinhoBarateiro</stringProp>
+            <stringProp name="Argument.value">carrinho.barateiro.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlCarrinhoExtra" elementType="Argument">
+            <stringProp name="Argument.name">urlCarrinhoExtra</stringProp>
+            <stringProp name="Argument.value">carrinho.extra.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlnike" elementType="Argument">
+            <stringProp name="Argument.name">urlnike</stringProp>
+            <stringProp name="Argument.value">checkout.nike.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlapinike" elementType="Argument">
+            <stringProp name="Argument.name">urlapinike</stringProp>
+            <stringProp name="Argument.value">api-checkout.nike.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlPrice-Ex" elementType="Argument">
+            <stringProp name="Argument.name">urlPrice-Ex</stringProp>
+            <stringProp name="Argument.value">preco.api-extra.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlPrice-Cb" elementType="Argument">
+            <stringProp name="Argument.name">urlPrice-Cb</stringProp>
+            <stringProp name="Argument.value">preco.api-casasbahia.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="urlPrice-Pf" elementType="Argument">
+            <stringProp name="Argument.name">urlPrice-Pf</stringProp>
+            <stringProp name="Argument.value">preco.api-pontofrio.com.br</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+        <collectionProp name="HeaderManager.headers">
+          <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+            <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+            <stringProp name="Header.value">EDFFC8CF63A18B53E15B5A172E0EC88A</stringProp>
+          </elementProp>
+          <elementProp name="User-Agent" elementType="Header">
+            <stringProp name="Header.name">User-Agent</stringProp>
+            <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36</stringProp>
+          </elementProp>
+          <elementProp name="Accept-Language" elementType="Header">
+            <stringProp name="Header.name">Accept-Language</stringProp>
+            <stringProp name="Header.value">pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7</stringProp>
+          </elementProp>
+          <elementProp name="Accept-Encoding" elementType="Header">
+            <stringProp name="Header.name">Accept-Encoding</stringProp>
+            <stringProp name="Header.value">gzip, deflate, br</stringProp>
+          </elementProp>
+          <elementProp name="" elementType="Header">
+            <stringProp name="Header.name">x-DynaTrace</stringProp>
+            <stringProp name="Header.value">SN=recomendacao-cb</stringProp>
+          </elementProp>
+        </collectionProp>
+      </HeaderManager>
+      <hashTree/>
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="HTTP Request Defaults" enabled="true">
+        <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+          <collectionProp name="Arguments.arguments"/>
+        </elementProp>
+        <stringProp name="HTTPSampler.domain"></stringProp>
+        <stringProp name="HTTPSampler.port"></stringProp>
+        <stringProp name="HTTPSampler.protocol"></stringProp>
+        <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+        <stringProp name="HTTPSampler.path"></stringProp>
+        <boolProp name="HTTPSampler.concurrentDwn">true</boolProp>
+        <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+        <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+        <stringProp name="HTTPSampler.response_timeout"></stringProp>
+      </ConfigTestElement>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">-1</intProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">50</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">300</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
+          <collectionProp name="AuthManager.auth_list"/>
+          <boolProp name="AuthManager.clearEachIteration">true</boolProp>
+        </AuthManager>
+        <hashTree/>
+        <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
+          <collectionProp name="CookieManager.cookies"/>
+          <boolProp name="CookieManager.clearEachIteration">true</boolProp>
+        </CookieManager>
+        <hashTree/>
+        <CacheManager guiclass="CacheManagerGui" testclass="CacheManager" testname="HTTP Cache Manager" enabled="true">
+          <boolProp name="clearEachIteration">true</boolProp>
+          <boolProp name="useExpires">false</boolProp>
+        </CacheManager>
+        <hashTree/>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="skus.csv" enabled="true">
+          <stringProp name="filename">skus.csv</stringProp>
+          <stringProp name="fileEncoding"></stringProp>
+          <stringProp name="variableNames">filtro_sku</stringProp>
+          <boolProp name="ignoreFirstLine">false</boolProp>
+          <stringProp name="delimiter">,</stringProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+        </CSVDataSet>
+        <hashTree/>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="usuario-blacklist-guid-cb.csv" enabled="true">
+          <stringProp name="filename">usuario-blacklist-guid-cb.csv</stringProp>
+          <stringProp name="fileEncoding"></stringProp>
+          <stringProp name="variableNames">usuario_guid-cb</stringProp>
+          <boolProp name="ignoreFirstLine">false</boolProp>
+          <stringProp name="delimiter">,</stringProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+        </CSVDataSet>
+        <hashTree/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="recomendacao" enabled="true"/>
+        <hashTree>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Home" enabled="true"/>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/recommender/api/recommendations_w16" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">recommender/api/recommendations/?kind=w16&amp;id=${filtro_sku}</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept" elementType="Header">
+                    <stringProp name="Header.name">Accept</stringProp>
+                    <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                  </elementProp>
+                  <elementProp name="Origin" elementType="Header">
+                    <stringProp name="Header.name">Origin</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                  </elementProp>
+                  <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                    <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                    <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                  </elementProp>
+                  <elementProp name="Referer" elementType="Header">
+                    <stringProp name="Header.name">Referer</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Language" elementType="Header">
+                    <stringProp name="Header.name">Accept-Language</stringProp>
+                    <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">x-dynaTrace</stringProp>
+                    <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="ids_limpo" enabled="true">
+                <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+                <stringProp name="RegexExtractor.refname">ids_limpo_rec</stringProp>
+                <stringProp name="RegexExtractor.regex">\[(.*?)\]</stringProp>
+                <stringProp name="RegexExtractor.template">$1$</stringProp>
+                <stringProp name="RegexExtractor.default">0</stringProp>
+                <stringProp name="RegexExtractor.match_number"></stringProp>
+              </RegexExtractor>
+              <hashTree/>
+              <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="Pós-Processador BeanShell" enabled="true">
+                <boolProp name="resetInterpreter">false</boolProp>
+                <stringProp name="parameters"></stringProp>
+                <stringProp name="filename"></stringProp>
+                <stringProp name="script">String line = vars.get(&quot;ids_limpo_rec&quot;);
+
+String paramRecs = &quot;&quot;;
+
+String[] words = line.split(&quot;,&quot;);
+for (int i = 0; i &lt; words.length; i++) {
+  // log.info(words[i]);
+  //if (i == 2) {
+  //    log.info(&quot;Third word is: &quot; + words[i]);
+      vars.put(&quot;id_rec_&quot; + i, words[i]);
+
+      if(paramRecs != &quot;&quot;)
+	      paramRecs += &quot;&amp;ids=&quot; +  words[i];
+	 else
+	      paramRecs = &quot;ids=&quot; +  words[i];
+}
+
+vars.put(&quot;paramRecs2&quot;, paramRecs);
+
+//if(line == &quot;&quot;)
+//	      vars.put(&quot;ids_limpo&quot;, 0);
+
+
+	</stringProp>
+              </BeanShellPostProcessor>
+              <hashTree/>
+            </hashTree>
+            <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Controlador Se" enabled="true">
+              <stringProp name="IfController.condition">${__jexl3(&quot;${ids_limpo_rec}&quot; != &quot;&quot;)}</stringProp>
+              <boolProp name="IfController.evaluateAll">false</boolProp>
+              <boolProp name="IfController.useExpression">true</boolProp>
+            </IfController>
+            <hashTree>
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/productdetails/api/skusdetails/getbyids" enabled="true">
+                <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                  <collectionProp name="Arguments.arguments"/>
+                </elementProp>
+                <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+                <stringProp name="HTTPSampler.port"></stringProp>
+                <stringProp name="HTTPSampler.protocol">https</stringProp>
+                <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+                <stringProp name="HTTPSampler.path">productdetails/api/skusdetails/getbyids?${paramRecs2}</stringProp>
+                <stringProp name="HTTPSampler.method">GET</stringProp>
+                <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+                <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+                <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+                <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+                <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+                <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+                <stringProp name="HTTPSampler.response_timeout"></stringProp>
+              </HTTPSamplerProxy>
+              <hashTree>
+                <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                  <collectionProp name="HeaderManager.headers">
+                    <elementProp name="Accept" elementType="Header">
+                      <stringProp name="Header.name">Accept</stringProp>
+                      <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                    </elementProp>
+                    <elementProp name="Origin" elementType="Header">
+                      <stringProp name="Header.name">Origin</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                    </elementProp>
+                    <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                      <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                      <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                    </elementProp>
+                    <elementProp name="User-Agent" elementType="Header">
+                      <stringProp name="Header.name">User-Agent</stringProp>
+                      <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                    </elementProp>
+                    <elementProp name="Referer" elementType="Header">
+                      <stringProp name="Header.name">Referer</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Encoding" elementType="Header">
+                      <stringProp name="Header.name">Accept-Encoding</stringProp>
+                      <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Language" elementType="Header">
+                      <stringProp name="Header.name">Accept-Language</stringProp>
+                      <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                    </elementProp>
+                    <elementProp name="" elementType="Header">
+                      <stringProp name="Header.name">x-dynaTrace</stringProp>
+                      <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                    </elementProp>
+                  </collectionProp>
+                </HeaderManager>
+                <hashTree/>
+              </hashTree>
+            </hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/recommender/api/recommendations_w17" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">recommender/api/recommendations/?kind=w17&amp;id=${usuario_guid-cb}</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept" elementType="Header">
+                    <stringProp name="Header.name">Accept</stringProp>
+                    <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                  </elementProp>
+                  <elementProp name="Origin" elementType="Header">
+                    <stringProp name="Header.name">Origin</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                  </elementProp>
+                  <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                    <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                    <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                  </elementProp>
+                  <elementProp name="Referer" elementType="Header">
+                    <stringProp name="Header.name">Referer</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Language" elementType="Header">
+                    <stringProp name="Header.name">Accept-Language</stringProp>
+                    <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">x-dynaTrace</stringProp>
+                    <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="ids_limpo" enabled="true">
+                <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+                <stringProp name="RegexExtractor.refname">ids_limpo_rec</stringProp>
+                <stringProp name="RegexExtractor.regex">\[(.*?)\]</stringProp>
+                <stringProp name="RegexExtractor.template">$1$</stringProp>
+                <stringProp name="RegexExtractor.default">0</stringProp>
+                <stringProp name="RegexExtractor.match_number"></stringProp>
+              </RegexExtractor>
+              <hashTree/>
+              <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="Pós-Processador BeanShell" enabled="true">
+                <boolProp name="resetInterpreter">false</boolProp>
+                <stringProp name="parameters"></stringProp>
+                <stringProp name="filename"></stringProp>
+                <stringProp name="script">String line = vars.get(&quot;ids_limpo_rec&quot;);
+
+String paramRecs = &quot;&quot;;
+
+String[] words = line.split(&quot;,&quot;);
+for (int i = 0; i &lt; words.length; i++) {
+  // log.info(words[i]);
+  //if (i == 2) {
+  //    log.info(&quot;Third word is: &quot; + words[i]);
+      vars.put(&quot;id_rec_&quot; + i, words[i]);
+
+      if(paramRecs != &quot;&quot;)
+	      paramRecs += &quot;&amp;ids=&quot; +  words[i];
+	 else
+	      paramRecs = &quot;ids=&quot; +  words[i];
+}
+
+vars.put(&quot;paramRecs2&quot;, paramRecs);
+
+//if(line == &quot;&quot;)
+//	      vars.put(&quot;ids_limpo&quot;, 0);
+
+
+	</stringProp>
+              </BeanShellPostProcessor>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Departamento" enabled="true"/>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/recommender/api/recommendations_w18" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">recommender/api/recommendations/?kind=w18&amp;id=${filtro_sku}</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept" elementType="Header">
+                    <stringProp name="Header.name">Accept</stringProp>
+                    <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                  </elementProp>
+                  <elementProp name="Origin" elementType="Header">
+                    <stringProp name="Header.name">Origin</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                  </elementProp>
+                  <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                    <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                    <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                  </elementProp>
+                  <elementProp name="Referer" elementType="Header">
+                    <stringProp name="Header.name">Referer</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Language" elementType="Header">
+                    <stringProp name="Header.name">Accept-Language</stringProp>
+                    <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">x-dynaTrace</stringProp>
+                    <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="ids_limpo" enabled="true">
+                <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+                <stringProp name="RegexExtractor.refname">ids_limpo_rec</stringProp>
+                <stringProp name="RegexExtractor.regex">\[(.*?)\]</stringProp>
+                <stringProp name="RegexExtractor.template">$1$</stringProp>
+                <stringProp name="RegexExtractor.default">0</stringProp>
+                <stringProp name="RegexExtractor.match_number"></stringProp>
+              </RegexExtractor>
+              <hashTree/>
+              <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="Pós-Processador BeanShell" enabled="true">
+                <boolProp name="resetInterpreter">false</boolProp>
+                <stringProp name="parameters"></stringProp>
+                <stringProp name="filename"></stringProp>
+                <stringProp name="script">String line = vars.get(&quot;ids_limpo_rec&quot;);
+
+String paramRecs = &quot;&quot;;
+
+String[] words = line.split(&quot;,&quot;);
+for (int i = 0; i &lt; words.length; i++) {
+  // log.info(words[i]);
+  //if (i == 2) {
+  //    log.info(&quot;Third word is: &quot; + words[i]);
+      vars.put(&quot;id_rec_&quot; + i, words[i]);
+
+      if(paramRecs != &quot;&quot;)
+	      paramRecs += &quot;&amp;ids=&quot; +  words[i];
+	 else
+	      paramRecs = &quot;ids=&quot; +  words[i];
+}
+
+vars.put(&quot;paramRecs2&quot;, paramRecs);
+
+//if(line == &quot;&quot;)
+//	      vars.put(&quot;ids_limpo&quot;, 0);
+
+
+	</stringProp>
+              </BeanShellPostProcessor>
+              <hashTree/>
+            </hashTree>
+            <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Controlador Se" enabled="true">
+              <stringProp name="IfController.condition">${__jexl3(&quot;${ids_limpo_rec}&quot; != &quot;&quot;)}</stringProp>
+              <boolProp name="IfController.evaluateAll">false</boolProp>
+              <boolProp name="IfController.useExpression">true</boolProp>
+            </IfController>
+            <hashTree>
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/productdetails/api/skusdetails/getbyids" enabled="true">
+                <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                  <collectionProp name="Arguments.arguments"/>
+                </elementProp>
+                <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+                <stringProp name="HTTPSampler.port"></stringProp>
+                <stringProp name="HTTPSampler.protocol">https</stringProp>
+                <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+                <stringProp name="HTTPSampler.path">productdetails/api/skusdetails/getbyids?${paramRecs2}</stringProp>
+                <stringProp name="HTTPSampler.method">GET</stringProp>
+                <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+                <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+                <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+                <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+                <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+                <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+                <stringProp name="HTTPSampler.response_timeout"></stringProp>
+              </HTTPSamplerProxy>
+              <hashTree>
+                <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                  <collectionProp name="HeaderManager.headers">
+                    <elementProp name="Accept" elementType="Header">
+                      <stringProp name="Header.name">Accept</stringProp>
+                      <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                    </elementProp>
+                    <elementProp name="Origin" elementType="Header">
+                      <stringProp name="Header.name">Origin</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                    </elementProp>
+                    <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                      <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                      <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                    </elementProp>
+                    <elementProp name="User-Agent" elementType="Header">
+                      <stringProp name="Header.name">User-Agent</stringProp>
+                      <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                    </elementProp>
+                    <elementProp name="Referer" elementType="Header">
+                      <stringProp name="Header.name">Referer</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Encoding" elementType="Header">
+                      <stringProp name="Header.name">Accept-Encoding</stringProp>
+                      <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Language" elementType="Header">
+                      <stringProp name="Header.name">Accept-Language</stringProp>
+                      <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                    </elementProp>
+                    <elementProp name="" elementType="Header">
+                      <stringProp name="Header.name">x-dynaTrace</stringProp>
+                      <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                    </elementProp>
+                  </collectionProp>
+                </HeaderManager>
+                <hashTree/>
+              </hashTree>
+            </hashTree>
+          </hashTree>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Produto" enabled="true"/>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/recommender/api/recommendations_w8" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">recommender/api/recommendations/?kind=w8&amp;id=${filtro_sku}</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept" elementType="Header">
+                    <stringProp name="Header.name">Accept</stringProp>
+                    <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                  </elementProp>
+                  <elementProp name="Origin" elementType="Header">
+                    <stringProp name="Header.name">Origin</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                  </elementProp>
+                  <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                    <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                    <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                  </elementProp>
+                  <elementProp name="Referer" elementType="Header">
+                    <stringProp name="Header.name">Referer</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Language" elementType="Header">
+                    <stringProp name="Header.name">Accept-Language</stringProp>
+                    <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">x-dynaTrace</stringProp>
+                    <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="ids_limpo" enabled="true">
+                <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+                <stringProp name="RegexExtractor.refname">ids_limpo_rec</stringProp>
+                <stringProp name="RegexExtractor.regex">\[(.*?)\]</stringProp>
+                <stringProp name="RegexExtractor.template">$1$</stringProp>
+                <stringProp name="RegexExtractor.default">0</stringProp>
+                <stringProp name="RegexExtractor.match_number"></stringProp>
+              </RegexExtractor>
+              <hashTree/>
+              <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="Pós-Processador BeanShell" enabled="true">
+                <boolProp name="resetInterpreter">false</boolProp>
+                <stringProp name="parameters"></stringProp>
+                <stringProp name="filename"></stringProp>
+                <stringProp name="script">String line = vars.get(&quot;ids_limpo_rec&quot;);
+
+String paramRecs = &quot;&quot;;
+
+String[] words = line.split(&quot;,&quot;);
+for (int i = 0; i &lt; words.length; i++) {
+  // log.info(words[i]);
+  //if (i == 2) {
+  //    log.info(&quot;Third word is: &quot; + words[i]);
+      vars.put(&quot;id_rec_&quot; + i, words[i]);
+
+      if(paramRecs != &quot;&quot;)
+	      paramRecs += &quot;&amp;ids=&quot; +  words[i];
+	 else
+	      paramRecs = &quot;ids=&quot; +  words[i];
+}
+
+vars.put(&quot;paramRecs2&quot;, paramRecs);
+
+//if(line == &quot;&quot;)
+//	      vars.put(&quot;ids_limpo&quot;, 0);
+
+
+	</stringProp>
+              </BeanShellPostProcessor>
+              <hashTree/>
+            </hashTree>
+            <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Controlador Se" enabled="true">
+              <stringProp name="IfController.condition">${__jexl3(&quot;${ids_limpo_rec}&quot; != &quot;&quot;)}</stringProp>
+              <boolProp name="IfController.evaluateAll">false</boolProp>
+              <boolProp name="IfController.useExpression">true</boolProp>
+            </IfController>
+            <hashTree>
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/productdetails/api/skusdetails/getbyids" enabled="true">
+                <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                  <collectionProp name="Arguments.arguments"/>
+                </elementProp>
+                <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+                <stringProp name="HTTPSampler.port"></stringProp>
+                <stringProp name="HTTPSampler.protocol">https</stringProp>
+                <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+                <stringProp name="HTTPSampler.path">productdetails/api/skusdetails/getbyids?${paramRecs2}</stringProp>
+                <stringProp name="HTTPSampler.method">GET</stringProp>
+                <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+                <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+                <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+                <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+                <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+                <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+                <stringProp name="HTTPSampler.response_timeout"></stringProp>
+              </HTTPSamplerProxy>
+              <hashTree>
+                <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                  <collectionProp name="HeaderManager.headers">
+                    <elementProp name="Accept" elementType="Header">
+                      <stringProp name="Header.name">Accept</stringProp>
+                      <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                    </elementProp>
+                    <elementProp name="Origin" elementType="Header">
+                      <stringProp name="Header.name">Origin</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                    </elementProp>
+                    <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                      <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                      <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                    </elementProp>
+                    <elementProp name="User-Agent" elementType="Header">
+                      <stringProp name="Header.name">User-Agent</stringProp>
+                      <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                    </elementProp>
+                    <elementProp name="Referer" elementType="Header">
+                      <stringProp name="Header.name">Referer</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Encoding" elementType="Header">
+                      <stringProp name="Header.name">Accept-Encoding</stringProp>
+                      <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Language" elementType="Header">
+                      <stringProp name="Header.name">Accept-Language</stringProp>
+                      <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                    </elementProp>
+                    <elementProp name="" elementType="Header">
+                      <stringProp name="Header.name">x-dynaTrace</stringProp>
+                      <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                    </elementProp>
+                  </collectionProp>
+                </HeaderManager>
+                <hashTree/>
+              </hashTree>
+            </hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/recommender/api/recommendations_w9" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">recommender/api/recommendations/?kind=w9&amp;id=${filtro_sku}</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept" elementType="Header">
+                    <stringProp name="Header.name">Accept</stringProp>
+                    <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                  </elementProp>
+                  <elementProp name="Origin" elementType="Header">
+                    <stringProp name="Header.name">Origin</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                  </elementProp>
+                  <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                    <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                    <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                  </elementProp>
+                  <elementProp name="Referer" elementType="Header">
+                    <stringProp name="Header.name">Referer</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Language" elementType="Header">
+                    <stringProp name="Header.name">Accept-Language</stringProp>
+                    <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">x-dynaTrace</stringProp>
+                    <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="ids_limpo" enabled="true">
+                <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+                <stringProp name="RegexExtractor.refname">ids_limpo_rec</stringProp>
+                <stringProp name="RegexExtractor.regex">\[(.*?)\]</stringProp>
+                <stringProp name="RegexExtractor.template">$1$</stringProp>
+                <stringProp name="RegexExtractor.default">0</stringProp>
+                <stringProp name="RegexExtractor.match_number"></stringProp>
+              </RegexExtractor>
+              <hashTree/>
+              <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="Pós-Processador BeanShell" enabled="true">
+                <boolProp name="resetInterpreter">false</boolProp>
+                <stringProp name="parameters"></stringProp>
+                <stringProp name="filename"></stringProp>
+                <stringProp name="script">String line = vars.get(&quot;ids_limpo_rec&quot;);
+
+String paramRecs = &quot;&quot;;
+
+String[] words = line.split(&quot;,&quot;);
+for (int i = 0; i &lt; words.length; i++) {
+  // log.info(words[i]);
+  //if (i == 2) {
+  //    log.info(&quot;Third word is: &quot; + words[i]);
+      vars.put(&quot;id_rec_&quot; + i, words[i]);
+
+      if(paramRecs != &quot;&quot;)
+	      paramRecs += &quot;&amp;ids=&quot; +  words[i];
+	 else
+	      paramRecs = &quot;ids=&quot; +  words[i];
+}
+
+vars.put(&quot;paramRecs2&quot;, paramRecs);
+
+//if(line == &quot;&quot;)
+//	      vars.put(&quot;ids_limpo&quot;, 0);
+
+
+	</stringProp>
+              </BeanShellPostProcessor>
+              <hashTree/>
+            </hashTree>
+            <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Controlador Se" enabled="true">
+              <stringProp name="IfController.condition">${__jexl3(&quot;${ids_limpo_rec}&quot; != &quot;&quot;)}</stringProp>
+              <boolProp name="IfController.evaluateAll">false</boolProp>
+              <boolProp name="IfController.useExpression">true</boolProp>
+            </IfController>
+            <hashTree>
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/productdetails/api/skusdetails/getbyids" enabled="true">
+                <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                  <collectionProp name="Arguments.arguments"/>
+                </elementProp>
+                <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+                <stringProp name="HTTPSampler.port"></stringProp>
+                <stringProp name="HTTPSampler.protocol">https</stringProp>
+                <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+                <stringProp name="HTTPSampler.path">productdetails/api/skusdetails/getbyids?${paramRecs2}</stringProp>
+                <stringProp name="HTTPSampler.method">GET</stringProp>
+                <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+                <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+                <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+                <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+                <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+                <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+                <stringProp name="HTTPSampler.response_timeout"></stringProp>
+              </HTTPSamplerProxy>
+              <hashTree>
+                <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                  <collectionProp name="HeaderManager.headers">
+                    <elementProp name="Accept" elementType="Header">
+                      <stringProp name="Header.name">Accept</stringProp>
+                      <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                    </elementProp>
+                    <elementProp name="Origin" elementType="Header">
+                      <stringProp name="Header.name">Origin</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                    </elementProp>
+                    <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                      <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                      <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                    </elementProp>
+                    <elementProp name="User-Agent" elementType="Header">
+                      <stringProp name="Header.name">User-Agent</stringProp>
+                      <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                    </elementProp>
+                    <elementProp name="Referer" elementType="Header">
+                      <stringProp name="Header.name">Referer</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Encoding" elementType="Header">
+                      <stringProp name="Header.name">Accept-Encoding</stringProp>
+                      <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Language" elementType="Header">
+                      <stringProp name="Header.name">Accept-Language</stringProp>
+                      <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                    </elementProp>
+                    <elementProp name="" elementType="Header">
+                      <stringProp name="Header.name">x-dynaTrace</stringProp>
+                      <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                    </elementProp>
+                  </collectionProp>
+                </HeaderManager>
+                <hashTree/>
+              </hashTree>
+              <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Controlador Se" enabled="true">
+                <stringProp name="IfController.condition">${__jexl3(&quot;${ids_limpo_rec}&quot; != &quot;&quot;)}</stringProp>
+                <boolProp name="IfController.evaluateAll">false</boolProp>
+                <boolProp name="IfController.useExpression">true</boolProp>
+              </IfController>
+              <hashTree>
+                <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/productdetails/api/skusdetails/getbyids" enabled="true">
+                  <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                    <collectionProp name="Arguments.arguments"/>
+                  </elementProp>
+                  <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+                  <stringProp name="HTTPSampler.port"></stringProp>
+                  <stringProp name="HTTPSampler.protocol">https</stringProp>
+                  <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+                  <stringProp name="HTTPSampler.path">productdetails/api/skusdetails/getbyids?${paramRecs2}</stringProp>
+                  <stringProp name="HTTPSampler.method">GET</stringProp>
+                  <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+                  <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+                  <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+                  <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+                  <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+                  <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+                  <stringProp name="HTTPSampler.response_timeout"></stringProp>
+                </HTTPSamplerProxy>
+                <hashTree>
+                  <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                    <collectionProp name="HeaderManager.headers">
+                      <elementProp name="Accept" elementType="Header">
+                        <stringProp name="Header.name">Accept</stringProp>
+                        <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                      </elementProp>
+                      <elementProp name="Origin" elementType="Header">
+                        <stringProp name="Header.name">Origin</stringProp>
+                        <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                      </elementProp>
+                      <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                        <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                        <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                      </elementProp>
+                      <elementProp name="User-Agent" elementType="Header">
+                        <stringProp name="Header.name">User-Agent</stringProp>
+                        <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                      </elementProp>
+                      <elementProp name="Referer" elementType="Header">
+                        <stringProp name="Header.name">Referer</stringProp>
+                        <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                      </elementProp>
+                      <elementProp name="Accept-Encoding" elementType="Header">
+                        <stringProp name="Header.name">Accept-Encoding</stringProp>
+                        <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                      </elementProp>
+                      <elementProp name="Accept-Language" elementType="Header">
+                        <stringProp name="Header.name">Accept-Language</stringProp>
+                        <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                      </elementProp>
+                      <elementProp name="" elementType="Header">
+                        <stringProp name="Header.name">x-dynaTrace</stringProp>
+                        <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                      </elementProp>
+                    </collectionProp>
+                  </HeaderManager>
+                  <hashTree/>
+                </hashTree>
+              </hashTree>
+            </hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/recommender/api/recommendations_w6" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">recommender/api/recommendations/?kind=w6&amp;id=${filtro_sku}</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept" elementType="Header">
+                    <stringProp name="Header.name">Accept</stringProp>
+                    <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                  </elementProp>
+                  <elementProp name="Origin" elementType="Header">
+                    <stringProp name="Header.name">Origin</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                  </elementProp>
+                  <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                    <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                    <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                  </elementProp>
+                  <elementProp name="Referer" elementType="Header">
+                    <stringProp name="Header.name">Referer</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Language" elementType="Header">
+                    <stringProp name="Header.name">Accept-Language</stringProp>
+                    <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">x-dynaTrace</stringProp>
+                    <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="ids_limpo" enabled="true">
+                <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+                <stringProp name="RegexExtractor.refname">ids_limpo_rec</stringProp>
+                <stringProp name="RegexExtractor.regex">\[(.*?)\]</stringProp>
+                <stringProp name="RegexExtractor.template">$1$</stringProp>
+                <stringProp name="RegexExtractor.default">0</stringProp>
+                <stringProp name="RegexExtractor.match_number"></stringProp>
+              </RegexExtractor>
+              <hashTree/>
+              <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="Pós-Processador BeanShell" enabled="true">
+                <boolProp name="resetInterpreter">false</boolProp>
+                <stringProp name="parameters"></stringProp>
+                <stringProp name="filename"></stringProp>
+                <stringProp name="script">String line = vars.get(&quot;ids_limpo_rec&quot;);
+
+String paramRecs = &quot;&quot;;
+
+String[] words = line.split(&quot;,&quot;);
+for (int i = 0; i &lt; words.length; i++) {
+  // log.info(words[i]);
+  //if (i == 2) {
+  //    log.info(&quot;Third word is: &quot; + words[i]);
+      vars.put(&quot;id_rec_&quot; + i, words[i]);
+
+      if(paramRecs != &quot;&quot;)
+	      paramRecs += &quot;&amp;ids=&quot; +  words[i];
+	 else
+	      paramRecs = &quot;ids=&quot; +  words[i];
+}
+
+vars.put(&quot;paramRecs2&quot;, paramRecs);
+
+//if(line == &quot;&quot;)
+//	      vars.put(&quot;ids_limpo&quot;, 0);
+
+
+	</stringProp>
+              </BeanShellPostProcessor>
+              <hashTree/>
+            </hashTree>
+            <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Controlador Se" enabled="true">
+              <stringProp name="IfController.condition">${__jexl3(&quot;${ids_limpo_rec}&quot; != &quot;&quot;)}</stringProp>
+              <boolProp name="IfController.evaluateAll">false</boolProp>
+              <boolProp name="IfController.useExpression">true</boolProp>
+            </IfController>
+            <hashTree>
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/productdetails/api/skusdetails/getbyids" enabled="true">
+                <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                  <collectionProp name="Arguments.arguments"/>
+                </elementProp>
+                <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+                <stringProp name="HTTPSampler.port"></stringProp>
+                <stringProp name="HTTPSampler.protocol">https</stringProp>
+                <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+                <stringProp name="HTTPSampler.path">productdetails/api/skusdetails/getbyids?${paramRecs2}</stringProp>
+                <stringProp name="HTTPSampler.method">GET</stringProp>
+                <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+                <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+                <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+                <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+                <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+                <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+                <stringProp name="HTTPSampler.response_timeout"></stringProp>
+              </HTTPSamplerProxy>
+              <hashTree>
+                <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                  <collectionProp name="HeaderManager.headers">
+                    <elementProp name="Accept" elementType="Header">
+                      <stringProp name="Header.name">Accept</stringProp>
+                      <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                    </elementProp>
+                    <elementProp name="Origin" elementType="Header">
+                      <stringProp name="Header.name">Origin</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                    </elementProp>
+                    <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                      <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                      <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                    </elementProp>
+                    <elementProp name="User-Agent" elementType="Header">
+                      <stringProp name="Header.name">User-Agent</stringProp>
+                      <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                    </elementProp>
+                    <elementProp name="Referer" elementType="Header">
+                      <stringProp name="Header.name">Referer</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Encoding" elementType="Header">
+                      <stringProp name="Header.name">Accept-Encoding</stringProp>
+                      <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Language" elementType="Header">
+                      <stringProp name="Header.name">Accept-Language</stringProp>
+                      <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                    </elementProp>
+                    <elementProp name="" elementType="Header">
+                      <stringProp name="Header.name">x-dynaTrace</stringProp>
+                      <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                    </elementProp>
+                  </collectionProp>
+                </HeaderManager>
+                <hashTree/>
+              </hashTree>
+            </hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/recommender/api/recommendations_w1" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">recommender/api/recommendations/?kind=w1&amp;id=${filtro_sku}</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept" elementType="Header">
+                    <stringProp name="Header.name">Accept</stringProp>
+                    <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                  </elementProp>
+                  <elementProp name="Origin" elementType="Header">
+                    <stringProp name="Header.name">Origin</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                  </elementProp>
+                  <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                    <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                    <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                  </elementProp>
+                  <elementProp name="Referer" elementType="Header">
+                    <stringProp name="Header.name">Referer</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Language" elementType="Header">
+                    <stringProp name="Header.name">Accept-Language</stringProp>
+                    <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">x-dynaTrace</stringProp>
+                    <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="ids_limpo" enabled="true">
+                <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+                <stringProp name="RegexExtractor.refname">ids_limpo_rec</stringProp>
+                <stringProp name="RegexExtractor.regex">\[(.*?)\]</stringProp>
+                <stringProp name="RegexExtractor.template">$1$</stringProp>
+                <stringProp name="RegexExtractor.default">0</stringProp>
+                <stringProp name="RegexExtractor.match_number"></stringProp>
+              </RegexExtractor>
+              <hashTree/>
+              <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="Pós-Processador BeanShell" enabled="true">
+                <boolProp name="resetInterpreter">false</boolProp>
+                <stringProp name="parameters"></stringProp>
+                <stringProp name="filename"></stringProp>
+                <stringProp name="script">String line = vars.get(&quot;ids_limpo_rec&quot;);
+
+String paramRecs = &quot;&quot;;
+
+String[] words = line.split(&quot;,&quot;);
+for (int i = 0; i &lt; words.length; i++) {
+  // log.info(words[i]);
+  //if (i == 2) {
+  //    log.info(&quot;Third word is: &quot; + words[i]);
+      vars.put(&quot;id_rec_&quot; + i, words[i]);
+
+      if(paramRecs != &quot;&quot;)
+	      paramRecs += &quot;&amp;ids=&quot; +  words[i];
+	 else
+	      paramRecs = &quot;ids=&quot; +  words[i];
+}
+
+vars.put(&quot;paramRecs2&quot;, paramRecs);
+
+//if(line == &quot;&quot;)
+//	      vars.put(&quot;ids_limpo&quot;, 0);
+
+
+	</stringProp>
+              </BeanShellPostProcessor>
+              <hashTree/>
+            </hashTree>
+            <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Controlador Se" enabled="true">
+              <stringProp name="IfController.condition">${__jexl3(&quot;${ids_limpo_rec}&quot; != &quot;&quot;)}</stringProp>
+              <boolProp name="IfController.evaluateAll">false</boolProp>
+              <boolProp name="IfController.useExpression">true</boolProp>
+            </IfController>
+            <hashTree>
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/productdetails/api/skusdetails/getbyids" enabled="true">
+                <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                  <collectionProp name="Arguments.arguments"/>
+                </elementProp>
+                <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+                <stringProp name="HTTPSampler.port"></stringProp>
+                <stringProp name="HTTPSampler.protocol">https</stringProp>
+                <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+                <stringProp name="HTTPSampler.path">productdetails/api/skusdetails/getbyids?${paramRecs2}</stringProp>
+                <stringProp name="HTTPSampler.method">GET</stringProp>
+                <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+                <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+                <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+                <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+                <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+                <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+                <stringProp name="HTTPSampler.response_timeout"></stringProp>
+              </HTTPSamplerProxy>
+              <hashTree>
+                <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                  <collectionProp name="HeaderManager.headers">
+                    <elementProp name="Accept" elementType="Header">
+                      <stringProp name="Header.name">Accept</stringProp>
+                      <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                    </elementProp>
+                    <elementProp name="Origin" elementType="Header">
+                      <stringProp name="Header.name">Origin</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                    </elementProp>
+                    <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                      <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                      <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                    </elementProp>
+                    <elementProp name="User-Agent" elementType="Header">
+                      <stringProp name="Header.name">User-Agent</stringProp>
+                      <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                    </elementProp>
+                    <elementProp name="Referer" elementType="Header">
+                      <stringProp name="Header.name">Referer</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Encoding" elementType="Header">
+                      <stringProp name="Header.name">Accept-Encoding</stringProp>
+                      <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Language" elementType="Header">
+                      <stringProp name="Header.name">Accept-Language</stringProp>
+                      <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                    </elementProp>
+                    <elementProp name="" elementType="Header">
+                      <stringProp name="Header.name">x-dynaTrace</stringProp>
+                      <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                    </elementProp>
+                  </collectionProp>
+                </HeaderManager>
+                <hashTree/>
+              </hashTree>
+            </hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/recommender/api/recommendations_w2" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">recommender/api/recommendations/?kind=w2&amp;id=${filtro_sku}</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept" elementType="Header">
+                    <stringProp name="Header.name">Accept</stringProp>
+                    <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                  </elementProp>
+                  <elementProp name="Origin" elementType="Header">
+                    <stringProp name="Header.name">Origin</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                  </elementProp>
+                  <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                    <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                    <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                  </elementProp>
+                  <elementProp name="Referer" elementType="Header">
+                    <stringProp name="Header.name">Referer</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Language" elementType="Header">
+                    <stringProp name="Header.name">Accept-Language</stringProp>
+                    <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">x-dynaTrace</stringProp>
+                    <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="ids_limpo" enabled="true">
+                <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+                <stringProp name="RegexExtractor.refname">ids_limpo_rec</stringProp>
+                <stringProp name="RegexExtractor.regex">\[(.*?)\]</stringProp>
+                <stringProp name="RegexExtractor.template">$1$</stringProp>
+                <stringProp name="RegexExtractor.default">0</stringProp>
+                <stringProp name="RegexExtractor.match_number"></stringProp>
+              </RegexExtractor>
+              <hashTree/>
+              <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="Pós-Processador BeanShell" enabled="true">
+                <boolProp name="resetInterpreter">false</boolProp>
+                <stringProp name="parameters"></stringProp>
+                <stringProp name="filename"></stringProp>
+                <stringProp name="script">String line = vars.get(&quot;ids_limpo_rec&quot;);
+
+String paramRecs = &quot;&quot;;
+
+String[] words = line.split(&quot;,&quot;);
+for (int i = 0; i &lt; words.length; i++) {
+  // log.info(words[i]);
+  //if (i == 2) {
+  //    log.info(&quot;Third word is: &quot; + words[i]);
+      vars.put(&quot;id_rec_&quot; + i, words[i]);
+
+      if(paramRecs != &quot;&quot;)
+	      paramRecs += &quot;&amp;ids=&quot; +  words[i];
+	 else
+	      paramRecs = &quot;ids=&quot; +  words[i];
+}
+
+vars.put(&quot;paramRecs2&quot;, paramRecs);
+
+//if(line == &quot;&quot;)
+//	      vars.put(&quot;ids_limpo&quot;, 0);
+
+
+	</stringProp>
+              </BeanShellPostProcessor>
+              <hashTree/>
+            </hashTree>
+            <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Controlador Se" enabled="true">
+              <stringProp name="IfController.condition">${__jexl3(&quot;${ids_limpo_rec}&quot; != &quot;&quot;)}</stringProp>
+              <boolProp name="IfController.evaluateAll">false</boolProp>
+              <boolProp name="IfController.useExpression">true</boolProp>
+            </IfController>
+            <hashTree>
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/productdetails/api/skusdetails/getbyids" enabled="true">
+                <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                  <collectionProp name="Arguments.arguments"/>
+                </elementProp>
+                <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+                <stringProp name="HTTPSampler.port"></stringProp>
+                <stringProp name="HTTPSampler.protocol">https</stringProp>
+                <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+                <stringProp name="HTTPSampler.path">productdetails/api/skusdetails/getbyids?${paramRecs2}</stringProp>
+                <stringProp name="HTTPSampler.method">GET</stringProp>
+                <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+                <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+                <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+                <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+                <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+                <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+                <stringProp name="HTTPSampler.response_timeout"></stringProp>
+              </HTTPSamplerProxy>
+              <hashTree>
+                <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                  <collectionProp name="HeaderManager.headers">
+                    <elementProp name="Accept" elementType="Header">
+                      <stringProp name="Header.name">Accept</stringProp>
+                      <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                    </elementProp>
+                    <elementProp name="Origin" elementType="Header">
+                      <stringProp name="Header.name">Origin</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                    </elementProp>
+                    <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                      <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                      <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                    </elementProp>
+                    <elementProp name="User-Agent" elementType="Header">
+                      <stringProp name="Header.name">User-Agent</stringProp>
+                      <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                    </elementProp>
+                    <elementProp name="Referer" elementType="Header">
+                      <stringProp name="Header.name">Referer</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Encoding" elementType="Header">
+                      <stringProp name="Header.name">Accept-Encoding</stringProp>
+                      <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Language" elementType="Header">
+                      <stringProp name="Header.name">Accept-Language</stringProp>
+                      <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                    </elementProp>
+                    <elementProp name="" elementType="Header">
+                      <stringProp name="Header.name">x-dynaTrace</stringProp>
+                      <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                    </elementProp>
+                  </collectionProp>
+                </HeaderManager>
+                <hashTree/>
+              </hashTree>
+            </hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/recommender/api/recommendations_w3" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">recommender/api/recommendations/?kind=w3&amp;id=${filtro_sku}</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept" elementType="Header">
+                    <stringProp name="Header.name">Accept</stringProp>
+                    <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                  </elementProp>
+                  <elementProp name="Origin" elementType="Header">
+                    <stringProp name="Header.name">Origin</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                  </elementProp>
+                  <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                    <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                    <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                  </elementProp>
+                  <elementProp name="Referer" elementType="Header">
+                    <stringProp name="Header.name">Referer</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Language" elementType="Header">
+                    <stringProp name="Header.name">Accept-Language</stringProp>
+                    <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">x-dynaTrace</stringProp>
+                    <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="ids_limpo" enabled="true">
+                <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+                <stringProp name="RegexExtractor.refname">ids_limpo_rec</stringProp>
+                <stringProp name="RegexExtractor.regex">\[(.*?)\]</stringProp>
+                <stringProp name="RegexExtractor.template">$1$</stringProp>
+                <stringProp name="RegexExtractor.default">0</stringProp>
+                <stringProp name="RegexExtractor.match_number"></stringProp>
+              </RegexExtractor>
+              <hashTree/>
+              <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="Pós-Processador BeanShell" enabled="true">
+                <boolProp name="resetInterpreter">false</boolProp>
+                <stringProp name="parameters"></stringProp>
+                <stringProp name="filename"></stringProp>
+                <stringProp name="script">String line = vars.get(&quot;ids_limpo_rec&quot;);
+
+String paramRecs = &quot;&quot;;
+
+String[] words = line.split(&quot;,&quot;);
+for (int i = 0; i &lt; words.length; i++) {
+  // log.info(words[i]);
+  //if (i == 2) {
+  //    log.info(&quot;Third word is: &quot; + words[i]);
+      vars.put(&quot;id_rec_&quot; + i, words[i]);
+
+      if(paramRecs != &quot;&quot;)
+	      paramRecs += &quot;&amp;ids=&quot; +  words[i];
+	 else
+	      paramRecs = &quot;ids=&quot; +  words[i];
+}
+
+vars.put(&quot;paramRecs2&quot;, paramRecs);
+
+//if(line == &quot;&quot;)
+//	      vars.put(&quot;ids_limpo&quot;, 0);
+
+
+	</stringProp>
+              </BeanShellPostProcessor>
+              <hashTree/>
+            </hashTree>
+            <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Controlador Se" enabled="true">
+              <stringProp name="IfController.condition">${__jexl3(&quot;${ids_limpo_rec}&quot; != &quot;&quot;)}</stringProp>
+              <boolProp name="IfController.evaluateAll">false</boolProp>
+              <boolProp name="IfController.useExpression">true</boolProp>
+            </IfController>
+            <hashTree>
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/productdetails/api/skusdetails/getbyids" enabled="true">
+                <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                  <collectionProp name="Arguments.arguments"/>
+                </elementProp>
+                <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+                <stringProp name="HTTPSampler.port"></stringProp>
+                <stringProp name="HTTPSampler.protocol">https</stringProp>
+                <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+                <stringProp name="HTTPSampler.path">productdetails/api/skusdetails/getbyids?${paramRecs2}</stringProp>
+                <stringProp name="HTTPSampler.method">GET</stringProp>
+                <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+                <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+                <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+                <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+                <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+                <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+                <stringProp name="HTTPSampler.response_timeout"></stringProp>
+              </HTTPSamplerProxy>
+              <hashTree>
+                <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                  <collectionProp name="HeaderManager.headers">
+                    <elementProp name="Accept" elementType="Header">
+                      <stringProp name="Header.name">Accept</stringProp>
+                      <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                    </elementProp>
+                    <elementProp name="Origin" elementType="Header">
+                      <stringProp name="Header.name">Origin</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                    </elementProp>
+                    <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                      <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                      <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                    </elementProp>
+                    <elementProp name="User-Agent" elementType="Header">
+                      <stringProp name="Header.name">User-Agent</stringProp>
+                      <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                    </elementProp>
+                    <elementProp name="Referer" elementType="Header">
+                      <stringProp name="Header.name">Referer</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Encoding" elementType="Header">
+                      <stringProp name="Header.name">Accept-Encoding</stringProp>
+                      <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Language" elementType="Header">
+                      <stringProp name="Header.name">Accept-Language</stringProp>
+                      <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                    </elementProp>
+                    <elementProp name="" elementType="Header">
+                      <stringProp name="Header.name">x-dynaTrace</stringProp>
+                      <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                    </elementProp>
+                  </collectionProp>
+                </HeaderManager>
+                <hashTree/>
+              </hashTree>
+            </hashTree>
+          </hashTree>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Outros" enabled="true"/>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/recommender/api/recommendations_w14" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">recommender/api/recommendations/?kind=w14&amp;id=${filtro_sku}</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept" elementType="Header">
+                    <stringProp name="Header.name">Accept</stringProp>
+                    <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                  </elementProp>
+                  <elementProp name="Origin" elementType="Header">
+                    <stringProp name="Header.name">Origin</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                  </elementProp>
+                  <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                    <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                    <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                  </elementProp>
+                  <elementProp name="Referer" elementType="Header">
+                    <stringProp name="Header.name">Referer</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Language" elementType="Header">
+                    <stringProp name="Header.name">Accept-Language</stringProp>
+                    <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">x-dynaTrace</stringProp>
+                    <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="ids_limpo" enabled="true">
+                <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+                <stringProp name="RegexExtractor.refname">ids_limpo_rec</stringProp>
+                <stringProp name="RegexExtractor.regex">\[(.*?)\]</stringProp>
+                <stringProp name="RegexExtractor.template">$1$</stringProp>
+                <stringProp name="RegexExtractor.default">0</stringProp>
+                <stringProp name="RegexExtractor.match_number"></stringProp>
+              </RegexExtractor>
+              <hashTree/>
+              <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="Pós-Processador BeanShell" enabled="true">
+                <boolProp name="resetInterpreter">false</boolProp>
+                <stringProp name="parameters"></stringProp>
+                <stringProp name="filename"></stringProp>
+                <stringProp name="script">String line = vars.get(&quot;ids_limpo_rec&quot;);
+
+String paramRecs = &quot;&quot;;
+
+String[] words = line.split(&quot;,&quot;);
+for (int i = 0; i &lt; words.length; i++) {
+  // log.info(words[i]);
+  //if (i == 2) {
+  //    log.info(&quot;Third word is: &quot; + words[i]);
+      vars.put(&quot;id_rec_&quot; + i, words[i]);
+
+      if(paramRecs != &quot;&quot;)
+	      paramRecs += &quot;&amp;ids=&quot; +  words[i];
+	 else
+	      paramRecs = &quot;ids=&quot; +  words[i];
+}
+
+vars.put(&quot;paramRecs2&quot;, paramRecs);
+
+//if(line == &quot;&quot;)
+//	      vars.put(&quot;ids_limpo&quot;, 0);
+
+
+	</stringProp>
+              </BeanShellPostProcessor>
+              <hashTree/>
+            </hashTree>
+            <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Controlador Se" enabled="true">
+              <stringProp name="IfController.condition">${__jexl3(&quot;${ids_limpo_rec}&quot; != &quot;&quot;)}</stringProp>
+              <boolProp name="IfController.evaluateAll">false</boolProp>
+              <boolProp name="IfController.useExpression">true</boolProp>
+            </IfController>
+            <hashTree>
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/productdetails/api/skusdetails/getbyids" enabled="true">
+                <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                  <collectionProp name="Arguments.arguments"/>
+                </elementProp>
+                <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+                <stringProp name="HTTPSampler.port"></stringProp>
+                <stringProp name="HTTPSampler.protocol">https</stringProp>
+                <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+                <stringProp name="HTTPSampler.path">productdetails/api/skusdetails/getbyids?${paramRecs2}</stringProp>
+                <stringProp name="HTTPSampler.method">GET</stringProp>
+                <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+                <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+                <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+                <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+                <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+                <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+                <stringProp name="HTTPSampler.response_timeout"></stringProp>
+              </HTTPSamplerProxy>
+              <hashTree>
+                <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                  <collectionProp name="HeaderManager.headers">
+                    <elementProp name="Accept" elementType="Header">
+                      <stringProp name="Header.name">Accept</stringProp>
+                      <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                    </elementProp>
+                    <elementProp name="Origin" elementType="Header">
+                      <stringProp name="Header.name">Origin</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                    </elementProp>
+                    <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                      <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                      <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                    </elementProp>
+                    <elementProp name="User-Agent" elementType="Header">
+                      <stringProp name="Header.name">User-Agent</stringProp>
+                      <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                    </elementProp>
+                    <elementProp name="Referer" elementType="Header">
+                      <stringProp name="Header.name">Referer</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Encoding" elementType="Header">
+                      <stringProp name="Header.name">Accept-Encoding</stringProp>
+                      <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Language" elementType="Header">
+                      <stringProp name="Header.name">Accept-Language</stringProp>
+                      <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                    </elementProp>
+                    <elementProp name="" elementType="Header">
+                      <stringProp name="Header.name">x-dynaTrace</stringProp>
+                      <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                    </elementProp>
+                  </collectionProp>
+                </HeaderManager>
+                <hashTree/>
+              </hashTree>
+            </hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/recommender/api/recommendations_w19" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                <collectionProp name="Arguments.arguments"/>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.protocol">https</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">recommender/api/recommendations/?kind=w19&amp;id=${filtro_sku}</stringProp>
+              <stringProp name="HTTPSampler.method">GET</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="Accept" elementType="Header">
+                    <stringProp name="Header.name">Accept</stringProp>
+                    <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                  </elementProp>
+                  <elementProp name="Origin" elementType="Header">
+                    <stringProp name="Header.name">Origin</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                  </elementProp>
+                  <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                    <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                    <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                  </elementProp>
+                  <elementProp name="User-Agent" elementType="Header">
+                    <stringProp name="Header.name">User-Agent</stringProp>
+                    <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                  </elementProp>
+                  <elementProp name="Referer" elementType="Header">
+                    <stringProp name="Header.name">Referer</stringProp>
+                    <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Encoding" elementType="Header">
+                    <stringProp name="Header.name">Accept-Encoding</stringProp>
+                    <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                  </elementProp>
+                  <elementProp name="Accept-Language" elementType="Header">
+                    <stringProp name="Header.name">Accept-Language</stringProp>
+                    <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                  </elementProp>
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">x-dynaTrace</stringProp>
+                    <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="ids_limpo" enabled="true">
+                <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+                <stringProp name="RegexExtractor.refname">ids_limpo_rec</stringProp>
+                <stringProp name="RegexExtractor.regex">\[(.*?)\]</stringProp>
+                <stringProp name="RegexExtractor.template">$1$</stringProp>
+                <stringProp name="RegexExtractor.default">0</stringProp>
+                <stringProp name="RegexExtractor.match_number"></stringProp>
+              </RegexExtractor>
+              <hashTree/>
+              <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="Pós-Processador BeanShell" enabled="true">
+                <boolProp name="resetInterpreter">false</boolProp>
+                <stringProp name="parameters"></stringProp>
+                <stringProp name="filename"></stringProp>
+                <stringProp name="script">String line = vars.get(&quot;ids_limpo_rec&quot;);
+
+String paramRecs = &quot;&quot;;
+
+String[] words = line.split(&quot;,&quot;);
+for (int i = 0; i &lt; words.length; i++) {
+  // log.info(words[i]);
+  //if (i == 2) {
+  //    log.info(&quot;Third word is: &quot; + words[i]);
+      vars.put(&quot;id_rec_&quot; + i, words[i]);
+
+      if(paramRecs != &quot;&quot;)
+	      paramRecs += &quot;&amp;ids=&quot; +  words[i];
+	 else
+	      paramRecs = &quot;ids=&quot; +  words[i];
+}
+
+vars.put(&quot;paramRecs2&quot;, paramRecs);
+
+//if(line == &quot;&quot;)
+//	      vars.put(&quot;ids_limpo&quot;, 0);
+
+
+	</stringProp>
+              </BeanShellPostProcessor>
+              <hashTree/>
+            </hashTree>
+            <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Controlador Se" enabled="true">
+              <stringProp name="IfController.condition">${__jexl3(&quot;${ids_limpo_rec}&quot; != &quot;&quot;)}</stringProp>
+              <boolProp name="IfController.evaluateAll">false</boolProp>
+              <boolProp name="IfController.useExpression">true</boolProp>
+            </IfController>
+            <hashTree>
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/productdetails/api/skusdetails/getbyids" enabled="true">
+                <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                  <collectionProp name="Arguments.arguments"/>
+                </elementProp>
+                <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+                <stringProp name="HTTPSampler.port"></stringProp>
+                <stringProp name="HTTPSampler.protocol">https</stringProp>
+                <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+                <stringProp name="HTTPSampler.path">productdetails/api/skusdetails/getbyids?${paramRecs2}</stringProp>
+                <stringProp name="HTTPSampler.method">GET</stringProp>
+                <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+                <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+                <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+                <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+                <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+                <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+                <stringProp name="HTTPSampler.response_timeout"></stringProp>
+              </HTTPSamplerProxy>
+              <hashTree>
+                <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                  <collectionProp name="HeaderManager.headers">
+                    <elementProp name="Accept" elementType="Header">
+                      <stringProp name="Header.name">Accept</stringProp>
+                      <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                    </elementProp>
+                    <elementProp name="Origin" elementType="Header">
+                      <stringProp name="Header.name">Origin</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                    </elementProp>
+                    <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                      <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                      <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                    </elementProp>
+                    <elementProp name="User-Agent" elementType="Header">
+                      <stringProp name="Header.name">User-Agent</stringProp>
+                      <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                    </elementProp>
+                    <elementProp name="Referer" elementType="Header">
+                      <stringProp name="Header.name">Referer</stringProp>
+                      <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Encoding" elementType="Header">
+                      <stringProp name="Header.name">Accept-Encoding</stringProp>
+                      <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                    </elementProp>
+                    <elementProp name="Accept-Language" elementType="Header">
+                      <stringProp name="Header.name">Accept-Language</stringProp>
+                      <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                    </elementProp>
+                    <elementProp name="" elementType="Header">
+                      <stringProp name="Header.name">x-dynaTrace</stringProp>
+                      <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                    </elementProp>
+                  </collectionProp>
+                </HeaderManager>
+                <hashTree/>
+              </hashTree>
+              <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Controlador Se" enabled="true">
+                <stringProp name="IfController.condition">${__jexl3(&quot;${ids_limpo_rec}&quot; != &quot;&quot;)}</stringProp>
+                <boolProp name="IfController.evaluateAll">false</boolProp>
+                <boolProp name="IfController.useExpression">true</boolProp>
+              </IfController>
+              <hashTree>
+                <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rec.casasbahia.com.br/productdetails/api/skusdetails/getbyids" enabled="true">
+                  <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+                    <collectionProp name="Arguments.arguments"/>
+                  </elementProp>
+                  <stringProp name="HTTPSampler.domain">${urlRecomendacaoCB}</stringProp>
+                  <stringProp name="HTTPSampler.port"></stringProp>
+                  <stringProp name="HTTPSampler.protocol">https</stringProp>
+                  <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+                  <stringProp name="HTTPSampler.path">productdetails/api/skusdetails/getbyids?${paramRecs2}</stringProp>
+                  <stringProp name="HTTPSampler.method">GET</stringProp>
+                  <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+                  <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+                  <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+                  <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+                  <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+                  <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+                  <stringProp name="HTTPSampler.response_timeout"></stringProp>
+                </HTTPSamplerProxy>
+                <hashTree>
+                  <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+                    <collectionProp name="HeaderManager.headers">
+                      <elementProp name="Accept" elementType="Header">
+                        <stringProp name="Header.name">Accept</stringProp>
+                        <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                      </elementProp>
+                      <elementProp name="Origin" elementType="Header">
+                        <stringProp name="Header.name">Origin</stringProp>
+                        <stringProp name="Header.value">https://m.casasbahia.com.br</stringProp>
+                      </elementProp>
+                      <elementProp name="X-DevTools-Emulate-Network-Conditions-Client-Id" elementType="Header">
+                        <stringProp name="Header.name">X-DevTools-Emulate-Network-Conditions-Client-Id</stringProp>
+                        <stringProp name="Header.value">e32f197e-f605-41bf-8bfc-124bfe289ed6</stringProp>
+                      </elementProp>
+                      <elementProp name="User-Agent" elementType="Header">
+                        <stringProp name="Header.name">User-Agent</stringProp>
+                        <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36</stringProp>
+                      </elementProp>
+                      <elementProp name="Referer" elementType="Header">
+                        <stringProp name="Header.name">Referer</stringProp>
+                        <stringProp name="Header.value">https://m.casasbahia.com.br/</stringProp>
+                      </elementProp>
+                      <elementProp name="Accept-Encoding" elementType="Header">
+                        <stringProp name="Header.name">Accept-Encoding</stringProp>
+                        <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                      </elementProp>
+                      <elementProp name="Accept-Language" elementType="Header">
+                        <stringProp name="Header.name">Accept-Language</stringProp>
+                        <stringProp name="Header.value">pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4</stringProp>
+                      </elementProp>
+                      <elementProp name="" elementType="Header">
+                        <stringProp name="Header.name">x-dynaTrace</stringProp>
+                        <stringProp name="Header.value">SN=recomendacao-casasbahia</stringProp>
+                      </elementProp>
+                    </collectionProp>
+                  </HeaderManager>
+                  <hashTree/>
+                </hashTree>
+              </hashTree>
+            </hashTree>
+          </hashTree>
+        </hashTree>
+        <ResultCollector guiclass="TableVisualizer" testclass="ResultCollector" testname="Ver Resultados em Tabela" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="Ver Árvore de Resultados" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Relatório Agregado" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>
